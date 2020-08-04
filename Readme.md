@@ -15,10 +15,12 @@ They can accordingly manipulate the design of the cars, the business strategy et
 LIBRARIES USED
 
 Pandas,matplot(visualizing),seaborn(visualizing) for EDA
-Prediciton method used here is multiple linear regression
+
+Prediciton method used here is Multiple Linear Regression
 
 FEATURE ELIMINATION
 1)Features that are highly correlated are eliminated using VIF(Variable Inflation Factor) method
+
 2)I've also tried Backward elimination method that eliminated features with p>0.05
 
 FEATURE EXTRACTION
@@ -29,5 +31,6 @@ Used ridge and lasso method to add little bit of slop to avoid overfitting.
 Also tried out Hyper Parameter tuning to select significant variables
 
 EVALUATION
+
 Evaluated the model using r2 method and got a score of 94%.So, the prediction model is correct 94% of the time.
 
